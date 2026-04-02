@@ -8,61 +8,61 @@ Generate a complete, interactive Go learning curriculum with 19 chapters across 
 
 ### Phase 1: Tier 1 — Core Go Programming (Chapters 01–08)
 
-- [ ] 1. Generate Chapter 01: Modules, Build & Project Structure (7 lessons, 3 exercises)
-  - [ ] 1.1 Create chapter folder structure at `curriculum/tier1-core/ch01-modules-build/` with lesson dirs (lesson1–lesson7), exercises/ dir (exercise1–exercise3)
+- [x] 1. Generate Chapter 01: Modules, Build & Project Structure (7 lessons, 3 exercises)
+  - [x] 1.1 Create chapter folder structure at `curriculum/tier1-core/ch01-modules-build/` with lesson dirs (lesson1–lesson7), exercises/ dir (exercise1–exercise3)
     - _Requirements: 1.1, 1.2, 2.1_
-  - [ ] 1.2 Generate lesson subfolders: lesson1-go-mod, lesson2-go-sum, lesson3-internal-pattern, lesson4-cross-compilation, lesson5-go-test, lesson6-makefile, lesson7-godoc
+  - [x] 1.2 Generate lesson subfolders: lesson1-go-mod, lesson2-go-sum, lesson3-internal-pattern, lesson4-cross-compilation, lesson5-go-test, lesson6-makefile, lesson7-godoc
     - Each subfolder gets lesson.md (concept + one analogy), main.go (compiles, runs, produces output), go.mod (module name matches folder, go 1.24)
     - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 4.1, 4.4, 4.5, 15.1–15.7_
-  - [ ] 1.3 Generate exercise subfolders: exercise1-init-module, exercise2-add-dependency, exercise3-cross-compile
+  - [x] 1.3 Generate exercise subfolders: exercise1-init-module, exercise2-add-dependency, exercise3-cross-compile
     - Each subfolder gets instructions.md (title, task, expected behavior, collapsible hints), starter.go (compiles, has TODOs), solution.go (compiles, runs, correct output), go.mod
     - _Requirements: 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 4.2, 4.3_
-  - [ ] 1.4 Generate quiz.md with 5 questions (4 options a–d each, collapsible answers with explanations)
+  - [x] 1.4 Generate quiz.md with 5 questions (4 options a–d each, collapsible answers with explanations)
     - _Requirements: 7.1, 7.2, 7.3, 7.4_
-  - [ ] 1.5 Generate cheat-sheet.md as two-column table (Pattern | Code), ≥7 rows (one per lesson)
+  - [x] 1.5 Generate cheat-sheet.md as two-column table (Pattern | Code), ≥7 rows (one per lesson)
     - _Requirements: 8.1, 8.2, 8.3_
-  - [ ] 1.6 Generate real-project.md referencing "vocabulary generator" with ≥3 concept mappings and concrete code references
+  - [x] 1.6 Generate real-project.md referencing "vocabulary generator" with ≥3 concept mappings and concrete code references
     - _Requirements: 9.1, 9.2, 9.3_
-  - [ ] 1.7 Generate README.md with title, learning goal, prerequisites (None), lesson list with links, exercise list with links, reinforced concepts section ("first chapter — no prior concepts")
+  - [x] 1.7 Generate README.md with title, learning goal, prerequisites (None), lesson list with links, exercise list with links, reinforced concepts section ("first chapter — no prior concepts")
     - _Requirements: 2.2, 2.8, 6.8_
-  - [ ] 1.8 Validate chapter: all .go files compile (`go build ./...`), all lesson main.go and solution.go produce output, all starter.go compile and contain TODOs
+  - [x] 1.8 Validate chapter: all .go files compile (`go build ./...`), all lesson main.go and solution.go produce output, all starter.go compile and contain TODOs
     - _Requirements: 4.1, 4.2, 4.3, 12.5, 12.6_
 
-- [ ] 2. Generate Chapter 02: Types, Variables & Zero Values (6 lessons, 4 exercises)
-  - [ ] 2.1 Create chapter folder structure at `curriculum/tier1-core/ch02-types-variables/` with lesson dirs (lesson1–lesson6), exercises/ dir (exercise1–exercise4)
+- [x] 2. Generate Chapter 02: Types, Variables & Zero Values (6 lessons, 4 exercises)
+  - [x] 2.1 Create chapter folder structure at `curriculum/tier1-core/ch02-types-variables/` with lesson dirs (lesson1–lesson6), exercises/ dir (exercise1–exercise4)
     - _Requirements: 1.1, 1.2, 2.1_
-  - [ ] 2.2 Generate lesson subfolders: lesson1-basic-types, lesson2-declarations, lesson3-zero-values, lesson4-type-conversions, lesson5-strings-runes, lesson6-control-flow
+  - [x] 2.2 Generate lesson subfolders: lesson1-basic-types, lesson2-declarations, lesson3-zero-values, lesson4-type-conversions, lesson5-strings-runes, lesson6-control-flow
     - Each subfolder gets lesson.md (concept + one analogy), main.go (compiles, runs, produces output), go.mod
     - _Requirements: 3.1–3.7, 4.1, 4.4, 4.5, 16.1–16.6_
-  - [ ] 2.3 Generate exercise subfolders (4 exercises) with instructions.md, starter.go, solution.go, go.mod each
+  - [x] 2.3 Generate exercise subfolders (4 exercises) with instructions.md, starter.go, solution.go, go.mod each
     - _Requirements: 5.1–5.6, 4.2, 4.3_
-  - [ ] 2.4 Generate quiz.md (5 questions, collapsible answers)
+  - [x] 2.4 Generate quiz.md (5 questions, collapsible answers)
     - _Requirements: 7.1–7.4_
-  - [ ] 2.5 Generate cheat-sheet.md (≥6 rows)
+  - [x] 2.5 Generate cheat-sheet.md (≥6 rows)
     - _Requirements: 8.1–8.3_
-  - [ ] 2.6 Generate real-project.md referencing "vocabulary generator" with ≥3 concept mappings
+  - [x] 2.6 Generate real-project.md referencing "vocabulary generator" with ≥3 concept mappings
     - _Requirements: 9.1–9.3_
-  - [ ] 2.7 Generate README.md with prerequisites (Ch01), reinforced concepts: Ch01 module structure
+  - [x] 2.7 Generate README.md with prerequisites (Ch01), reinforced concepts: Ch01 module structure
     - _Requirements: 2.2, 2.8, 6.8_
-  - [ ] 2.8 Validate chapter: all .go files compile, solutions run, starters compile with TODOs
+  - [x] 2.8 Validate chapter: all .go files compile, solutions run, starters compile with TODOs
     - _Requirements: 4.1–4.3, 12.5, 12.6_
 
-- [ ] 3. Generate Chapter 03: Structs, Methods & Receivers (6 lessons, 4 exercises)
-  - [ ] 3.1 Create chapter folder structure at `curriculum/tier1-core/ch03-structs-methods/`
+- [x] 3. Generate Chapter 03: Structs, Methods & Receivers (6 lessons, 4 exercises)
+  - [x] 3.1 Create chapter folder structure at `curriculum/tier1-core/ch03-structs-methods/`
     - _Requirements: 1.1, 1.2, 2.1_
-  - [ ] 3.2 Generate lesson subfolders: lesson1-struct-definitions, lesson2-methods-receivers, lesson3-struct-embedding, lesson4-struct-tags, lesson5-zero-value-structs, lesson6-constructor-functions
+  - [x] 3.2 Generate lesson subfolders: lesson1-struct-definitions, lesson2-methods-receivers, lesson3-struct-embedding, lesson4-struct-tags, lesson5-zero-value-structs, lesson6-constructor-functions
     - _Requirements: 3.1–3.7, 4.1, 4.4, 4.5, 17.1–17.6_
-  - [ ] 3.3 Generate exercise subfolders (4 exercises) with instructions.md, starter.go, solution.go, go.mod each
+  - [x] 3.3 Generate exercise subfolders (4 exercises) with instructions.md, starter.go, solution.go, go.mod each
     - _Requirements: 5.1–5.6, 4.2, 4.3_
-  - [ ] 3.4 Generate quiz.md (5 questions, collapsible answers)
+  - [x] 3.4 Generate quiz.md (5 questions, collapsible answers)
     - _Requirements: 7.1–7.4_
-  - [ ] 3.5 Generate cheat-sheet.md (≥6 rows)
+  - [x] 3.5 Generate cheat-sheet.md (≥6 rows)
     - _Requirements: 8.1–8.3_
-  - [ ] 3.6 Generate real-project.md referencing "vocabulary generator" with ≥3 concept mappings
+  - [x] 3.6 Generate real-project.md referencing "vocabulary generator" with ≥3 concept mappings
     - _Requirements: 9.1–9.3_
-  - [ ] 3.7 Generate README.md with prerequisites (Ch02), reinforced concepts: Ch02 types and zero values
+  - [x] 3.7 Generate README.md with prerequisites (Ch02), reinforced concepts: Ch02 types and zero values
     - _Requirements: 2.2, 2.8, 6.8_
-  - [ ] 3.8 Validate chapter: all .go files compile, solutions run, starters compile with TODOs
+  - [x] 3.8 Validate chapter: all .go files compile, solutions run, starters compile with TODOs
     - _Requirements: 4.1–4.3, 12.5, 12.6_
 
 - [ ] 4. Generate Chapter 04: Slices, Arrays & Pointers (6 lessons, 4 exercises)
@@ -397,36 +397,17 @@ Generate a complete, interactive Go learning curriculum with 19 chapters across 
 - [ ] 24. Checkpoint — Documentation Complete
   - Ensure index.md lists all 19 chapters with correct relative links. Verify master-guide.md and concept-map.md exist. Ask the user if questions arise.
 
-### Phase 5: Validation
+### Phase 5: Scripts & Validation
 
-- [ ] 25. Final structural and compilation validation
-  - [ ] 25.1 Verify tier directory structure: exactly 3 tier directories, 8 chapters in tier1-core, 7 in tier2-practical, 4 in tier3-expert
-    - _Requirements: 1.1, 1.2, 14.1_
-    - _Validates: Property 1_
-  - [ ] 25.2 Verify chapter folder completeness: every chapter has README.md, quiz.md, cheat-sheet.md, real-project.md, 6–10 lesson subfolders, exercises/ with 3–5 exercise subfolders
-    - _Requirements: 2.1, 2.3, 2.4, 2.5, 2.6, 2.7_
-    - _Validates: Property 4_
-  - [ ] 25.3 Verify lesson folder completeness: every lesson has lesson.md (with Analogy section), ≥1 .go file, go.mod (go 1.24)
-    - _Requirements: 3.1, 3.2, 3.3, 4.4, 4.5_
-    - _Validates: Property 6_
-  - [ ] 25.4 Verify exercise folder completeness: every exercise has instructions.md (title, task, expected behavior), starter.go (with TODOs), solution.go, go.mod
-    - _Requirements: 5.1, 5.2, 5.3_
-    - _Validates: Property 7_
-  - [ ] 25.5 Compile all lesson .go files (`go build ./...` from each lesson directory) and verify all produce output (`go run .`)
-    - _Requirements: 3.4, 3.5, 4.1_
-    - _Validates: Properties 8_
-  - [ ] 25.6 Compile all starter.go files and verify they contain TODO comments; compile and run all solution.go files and verify they produce output
-    - _Requirements: 4.2, 4.3, 5.3, 5.4_
-    - _Validates: Properties 9, 10_
-  - [ ] 25.7 Verify third-party library constraint: only Cobra and rapid appear in go.mod require directives across the entire curriculum
-    - _Requirements: 4.6, 13.4_
-    - _Validates: Property 15_
-  - [ ] 25.8 Verify total file count ≥ 200 and all internal links are relative paths within curriculum/
-    - _Requirements: 14.3, 14.4_
-    - _Validates: Properties 16, 17_
+- [ ] 25. Create helper scripts
+  - [ ] 25.1 Create `curriculum/check.sh` — learner-facing quality check script that runs `go build`, `go vet`, `gofmt -l`, and `go test -race` from any lesson/exercise directory. Include usage instructions in a comment header.
+  - [ ] 25.2 Create `curriculum/cheat.sh` — searches all cheat-sheet.md files for a keyword. Usage: `./cheat.sh error` finds all error-related patterns across all chapters. Uses grep with color output.
+  - [ ] 25.3 Create `curriculum/validate.sh` — author-facing script that compiles all lesson main.go files, all solution.go files, and all starter.go files across the entire curriculum
+  - [ ] 25.4 Run `validate.sh` and fix any compilation failures
+  - [ ] 25.5 Document all scripts in the README.md (check.sh and cheat.sh for learners, validate.sh for authors)
 
 - [ ] 26. Final checkpoint — All validation complete
-  - Ensure all tests pass, ask the user if questions arise.
+  - Ensure validate.sh passes with zero errors. Ask the user if questions arise.
 
 ## Notes
 
@@ -437,3 +418,4 @@ Generate a complete, interactive Go learning curriculum with 19 chapters across 
 - The "vocabulary generator" is the consistent real-project reference across all 19 chapters
 - Tier 3 chapters (16–19) must each note they can be consumed independently of other Tier 3 chapters
 - Checkpoints at task 9 (Tier 1), 17 (Tier 2), 22 (Tier 3), 24 (Docs), and 26 (Final) ensure incremental validation
+- Validation is a simple compile-check script, not a PBT test suite — keeps things practical
